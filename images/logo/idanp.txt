@@ -1,0 +1,17 @@
+{
+id:'z1',anp:'Mar Caribe',ruta:'ANP_cartografia_Z1_newlogo',
+id:'z2',anp:'Mar Caribe',ruta:'ANP_cartografia_Z2_newlogo',
+id:'z3',anp:'Mar Caribe',ruta:'ANP_cartografia_Z3_newlogo',
+id:'z4',anp:'Mar Caribe',ruta:'ANP_cartografia_Z4_newlogo',
+id:'z5',anp:'Mar Caribe',ruta:'ANP_cartografia_Z5_newlogo',
+id:'z21',anp:'Golfo de México',ruta:'ANP_cartografia_Z21_newlogo',
+id:'z22',anp:'Golfo de México',ruta:'ANP_cartografia_Z21_newlogo',
+id:'z23',anp:'Golfo de México',ruta:'ANP_cartografia_Z21_newlogo',
+id:'z31',anp:'Golfo de California',ruta:'ANP_cartografia_Z31_newlogo',
+id:'z32',anp:'Golfo de California',ruta:'ANP_cartografia_Z32_newlogo',
+id:'z33',anp:'Golfo de California',ruta:'ANP_cartografia_Z33_newlogo',
+id:'z34',anp:'Golfo de California',ruta:'ANP_cartografia_Z34_newlogo',
+id:'z41',anp:'Océano Pacifíco',ruta:'ANP_cartografia_Z41_newlogo',
+id:'z42',anp:'Océano Pacifíco',ruta:'ANP_cartografia_Z42_newlogo',
+id:'z43',anp:'Océano Pacifíco',ruta:'ANP_cartografia_Z43_newlogo',
+}
