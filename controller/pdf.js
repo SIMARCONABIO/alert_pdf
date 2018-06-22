@@ -45,8 +45,7 @@ function get(req, res, next) {
             let week= info[0]['file'][0]['week'];
             let year= info[0]['file'][0]['year'];
             
-            //let rutabase='C:/simar/satmo/L4';
-			let rutabase='E:/simar/satmo/L4'
+			let rutabase='/some/awesome/dir'
             let sba_img= rutabase+'/SBA/'+year+'/'+info[0]['file'][0]['filename'].replace('.tif','.png');
             let dhw_img= rutabase+'/DHW/'+year+'/'+info[0]['file'][1]['filename'].replace('.tif','.png');
             let whs_img= rutabase+'/WHS/'+year+'/'+info[0]['file'][2]['filename'].replace('.tif','.png');

@@ -2,11 +2,11 @@ const moment = require('moment');
 const knex = require('knex')(
     {
         client: 'pg', connection: {
-            host: '35.196.161.155',
-            user: 'postgres',
+            host: '127.0.0.1',
+            user: 'user',
             port: '5432',
-            password: '#Simar_2017!',
-            database: 'pysimar'
+            password: 'pass',
+            database: 'dbname'
         }
     });
 
