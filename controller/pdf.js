@@ -2,6 +2,7 @@ const PDFDocument = require('pdfkit')
 const lib = require('./pgquery.js');
 const moment = require('moment');
 
+const output_dir = require('./.config.dir')
 //fuente
 //https://fonts.google.com/specimen/Nunito+Sans?selection.family=Nunito+Sans
 
@@ -45,7 +46,7 @@ function get(req, res, next) {
             let week= info[0]['file'][0]['week'];
             let year= info[0]['file'][0]['year'];
             
-            let rutabase=process.env.OUTPUTDIR
+            let rutabase=output_dir
             
             let sba_img= rutabase+'/SBA/'+year+'/'+info[0]['file'][0]['filename'].replace('.tif','.png');
             let dhw_img= rutabase+'/DHW/'+year+'/'+info[0]['file'][1]['filename'].replace('.tif','.png');

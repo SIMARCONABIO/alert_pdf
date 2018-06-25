@@ -1,3 +1,3 @@
-controller/.config.db.*
+controller/.config.*
 package.json
 .env
