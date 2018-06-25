@@ -1,2 +1,3 @@
 controller/.config.db.*
 package.json
+.env
