@@ -1,14 +1,5 @@
 const moment = require('moment');
-const knex = require('knex')(
-    {
-        client: 'pg', connection: {
-            host: '127.0.0.1',
-            user: 'user',
-            port: '5432',
-            password: 'pass',
-            database: 'dbname'
-        }
-    });
+const knex = require('./.config.db');
 
 function getFile(fecha) {
     let fechaformat = moment(fecha, "DD/MM/YYYY").format('YYYY/MM/DD 00:00:00');
